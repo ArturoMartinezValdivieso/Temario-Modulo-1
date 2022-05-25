@@ -1,0 +1,90 @@
+*{
+    padding: 0px 0px;
+    margin: 0px 0px;
+}
+
+body{
+    background-color: beige;
+}
+
+.cabezera{
+    background-color: black;
+}
+
+.titulo{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: inline-block;
+    color: black;
+    font-size: 180%;
+}
+
+.tittle{
+    margin-right: 100px;
+    margin-left: 230px;
+    text-decoration: none;
+}
+
+.menu{
+    text-align: center;
+    background-color: grey;
+
+}
+
+.menu li{
+    
+    margin: 10px 15px;
+    padding: 1px 3px;
+    font-style: normal;
+    color: white;
+    text-decoration: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.lista1 > li{
+    display: inline-block;
+}
+
+.menu li a:hover{
+    color: brown;
+    transition: all .2s;
+}
+
+.subm{
+    position: absolute;
+    background-color: black;
+    visibility: hidden;  
+    opacity: 0;  
+    transition: opacity 1.5s;
+}
+
+.menu li:hover .subm{
+    visibility: visible;
+    opacity: 1;
+}
+
+section{
+    margin: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.pie{
+    border: 1px solid black;
+    text-align: center;
+    margin-top: 100px;
+    padding: 70px ;
+    background-color: black;
+    color: lemonchiffon;
+}
+
+img{
+    width: 100px;  
+    display:inline-block;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+
+
